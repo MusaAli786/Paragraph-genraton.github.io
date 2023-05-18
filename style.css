@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(212, 210, 210);
+}
+.row{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding-top: 50px;
+}
+.mainHeading{
+  font-size: 30px;
+}
+.textBox{
+    width: 60px;
+    height: 35px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: hsl(0, 0%, 100%);
+}
+.genetateBtn{
+    width: 100px;
+    height: 35px;
+    background-color: rgb(104, 176, 190);
+    font-size: 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.emptyContainer{
+    width: 1050px;
+    margin: auto;
+    padding: 70px 70px;
+    font-size: 16px;
+    line-height: 30px;
+}
